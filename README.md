@@ -1,3 +1,18 @@
+# GoSmart – Landing Page
+
+Landing page ini dibangun untuk menampilkan fitur *GoSmart* secara profesional.
+
+📌 **Cara Deploy ke GitHub Pages:**
+1. Pastikan branch `main` aktif.
+2. Push semua file.
+3. Masuk ke Settings → Pages → Deploy branch `main` folder `/ (root)`
+4. URL akan muncul di: `https://Baguesachmad.github.io/GoSmart`
+
+✨ Deskripsi Fitur  
+Tulis detail Tool A, B, C di sini.
+
+🎯 Cara kontribusi
+Kalau mau kontribusi → fork → pull request.
 # GoSmart Tools Documentation
 
 ## Introduction
