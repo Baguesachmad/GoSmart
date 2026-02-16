@@ -1,0 +1,89 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 100px 0;
+  background: linear-gradient(90deg, #0099ff, #66ccff);
+  color: #fff;
+}
+.hero .btn-group .btn {
+  margin: 0 10px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.btn.primary {
+  background: #005bbb;
+  color: #fff;
+}
+.btn.outline {
+  border: 2px solid #005bbb;
+  color: #005bbb;
+}
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Features */
+.features {
+  padding: 60px 0;
+  text-align: center;
+}
+.feature-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card {
+  width: 280px;
+  margin: 15px;
+}
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* CTA Download */
+.cta-download {
+  text-align: center;
+  padding: 50px 0;
+  background: #f4f4f4;
+}
+
+/* Footer */
+footer {
+  padding: 20px 0;
+  text-align: center;
+  background: #222;
+  color: #fff;
+}
+footer .socials a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
